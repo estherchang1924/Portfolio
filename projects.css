@@ -13,7 +13,7 @@ html{
     font-size: 62.5%;
 }
 
-html, body{
+html,body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +28,7 @@ body{
 }
 
 header{
-    margin-top: 20px; 
+    /*margin-top: 20px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -103,17 +103,23 @@ nav a:active{
 }
 
 body{
-    padding: 1rem 9%;  
+    /*padding: 1rem 9%;  */
+    padding: 4rem; 
 }
 
 h1{
-    margin-top: 10rem;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 3rem;
 }
 
 .project-box{
-    padding-top: 20rem;
-    border-color: black;
-    border-radius: 4%;
+    padding-top: 10rem;
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    font-size: medium;
 }
 
 .mockup-pic{
@@ -122,7 +128,7 @@ h1{
 }
 
 img{
-    width: 50%;
+    width: 90%;
     height: 50%;
 }
 
@@ -131,9 +137,12 @@ img{
     background-color: white;
     color: black;
     border-color: black;
+    bottom: 10px;
+    right: 70px;
     border-radius: 3px;
     padding: 3px;
     border-style: solid;
+    cursor: pointer;
 }
 
 .btn:hover{
