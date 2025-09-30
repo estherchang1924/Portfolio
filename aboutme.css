@@ -17,8 +17,6 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-image: url(../assets/grid.jpg);
-    background-size: cover;
     color: black;
 }
 
@@ -97,30 +95,75 @@ nav a:active{
     }
 }
 
-section{
-    min-height: 100vh;
-    padding: 5rem 9% 5rem;
+.about-container {
+    margin-top: 8rem;
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
-.bg-note{
-    padding-top: 10%;
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.text-block {
+    flex: 1;
+    max-width: 650px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    line-height: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.intro p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
+.fun-facts {
+    max-width: 700px;
+}
+
+.fun-facts h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.fun-facts ul {
+    list-style: disc inside;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+
+.profile-pic {
+    flex: 1;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
-img{
-    max-width: 70%;
-    max-height: 50%;
-    z-index: 0;
-} 
 
-.content{
-    color: black;
-    z-index: 5;
-    font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    position: absolute;
-    top: 21%;
-    left: 17%;
-    right: 17%;
-    line-height: 6rem;
+.profile-pic img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px purple;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+    transform:scale(1.05);
 }
