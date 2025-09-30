@@ -25,6 +25,7 @@ body{
     overflow-x: hidden;
     background-color: white;
     color: black;
+    margin-top: 10rem;
 }
 
 header{
@@ -35,7 +36,6 @@ header{
     width: 100%;
     padding: 1rem 9%;  
     background-color: white; /* was transparent before */
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); 
     display: flex;
     justify-content: space-between;
     align-items: center;
