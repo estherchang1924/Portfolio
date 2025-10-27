@@ -167,3 +167,7 @@ nav a:active{
 .profile-pic img:hover {
     transform:scale(1.05);
 }
+
+.pokemon {
+    float: right;
+}
