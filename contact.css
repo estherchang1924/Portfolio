@@ -152,6 +152,8 @@ nav a:active{
     margin-right: 1.5rem;
     color: purple;
     font-size: 1.8rem;
+    pointer-events: none;
+    cursor: default;
 }
 
 .contact-item .info h3 {
