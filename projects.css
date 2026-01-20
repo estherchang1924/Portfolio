@@ -128,13 +128,13 @@ h1{
 } 
 
 .mockup-pic{
+    border: 1px solid #333; 
+    border-radius: 8px;
     position: relative;
     width: 50%;
     text-align: center;
     overflow: hidden;
-    border: 1px solid #333; 
     padding: 10px;
-    border-radius: 8px;
     margin-right: 10px;
 }
 
