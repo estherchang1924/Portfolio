@@ -117,41 +117,47 @@ h1{
 
 .project-box{
     padding-top: 10rem;
-    border: 1px solid #333; 
+    /*border: 1px solid #333;  */
     padding: 15px;
     margin: 10px;
-    border-radius: 8px;
+    /*border-radius: 8px; */
     font-size: medium;
     display: flex;
     justify-content: space-between;
     align-content: center;
 } 
 
-.mockup-pic p{
-    margin-top: 0.5em;
-}
-
 .mockup-pic{
     position: relative;
     width: 50%;
     text-align: center;
+    overflow: hidden;
+    border: 1px solid #333; 
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
 }
 
-img{
+.mockup-pic p{
+    margin-top: 0.5em;
+}
+
+/*img{
     /*width: 90%;
-    height: 50%; */
+    height: 50%; 
     width: 90%;
     padding-top: 1em;
     max-width: 100%;
-}
+}*/ 
 
 .mockup-pic img {
     width: auto;           /* don’t stretch to full width */
     height: 350px;         /* adjust this number to match Food Assistance image */
     object-fit: cover;     /* crop slightly if necessary but keep proportions */
     display: block;
-    margin: 0 auto;        /* centers image horizontally */
-    border: none;
+    margin: 0 auto;        
+    /*border: none; */
+    margin-top: 1em;
     border-radius: 1em;
 }
 
@@ -166,6 +172,19 @@ img{
     padding: 0.5em;
     border-style: solid; 
     cursor: pointer;
+}
+
+.btn-soon{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-color: black; 
+    bottom: 1em; 
+    right: 70px;
+    border-radius: 3px;
+    padding: 0.5em;
+    border-style: solid; 
+    pointer-events: none;
 }
 
 .btnsaint{
@@ -183,4 +202,13 @@ img{
 
 .btn:hover{
     background-color: rgb(216, 216, 216);
+}
+
+@media (min-width: 1800px) {
+
+    .project-box{
+    border: 1px solid #333; 
+    font-size: large;
+    padding-left: 0px;
+    } 
 }
