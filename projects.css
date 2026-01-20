@@ -184,7 +184,12 @@ h1{
     border-radius: 3px;
     padding: 0.5em;
     border-style: solid; 
-    pointer-events: none;
+    /*pointer-events: none; */
+}
+
+.btn-soon:hover{
+    background-color: rgb(216, 216, 216);
+    transform: scale(1.1);
 }
 
 .btnsaint{
@@ -201,6 +206,10 @@ h1{
 } 
 
 .btn:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.btnsaint:hover{
     background-color: rgb(216, 216, 216);
 }
 
