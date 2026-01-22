@@ -215,9 +215,38 @@ h1{
 
 @media (min-width: 1800px) {
 
-    .project-box{
-    border: 1px solid #333; 
-    font-size: large;
-    padding-left: 0px;
-    } 
+    html {
+        font-size: 120%;
+    }
+
+    /* {
+        font-size: 125%;
+    } */
+
+    .mockup-pic img {
+        height: 500px;
+        margin-bottom: 1em;
+    }
+
+    nav a {
+        font-size: 125%;
+    }
+
+    .mockup-pic {
+        margin-right: 2em;
+    }
+
+    .mockup-pic p {
+        font-size: 125%;
+    }
+
+    .btn {
+        padding: 0.25em;
+        font-size: 1.25rem;
+    }
+
+    .btnsaint {
+        padding: 0.25em;
+    }
+
 }
