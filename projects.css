@@ -215,13 +215,13 @@ h1{
 
 @media (min-width: 1800px) {
 
-    html {
+    /*html {
         font-size: 120%;
     }
 
     /* {
         font-size: 125%;
-    } */
+    } 
 
     .mockup-pic img {
         height: 500px;
@@ -248,5 +248,5 @@ h1{
     .btnsaint {
         padding: 0.25em;
     }
-
-}
+*/
+} 
