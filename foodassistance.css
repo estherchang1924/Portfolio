@@ -20,6 +20,7 @@ body {
     color: #333;
     padding: 0 5rem;
     margin-top: 0rem;
+    margin-bottom: 5rem;
 }
 
 main {
@@ -182,6 +183,21 @@ iframe {
     margin: 3rem auto;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:black;
+    height: 1px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3rem;
 }
 
 @media (max-width: 768px) {

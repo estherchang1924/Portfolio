@@ -129,6 +129,12 @@ nav a:active{
     margin-bottom: 2rem;
 }
 
+.pokemon {
+    vertical-align: middle;
+    margin-top: -98px;
+    float: right;
+}
+
 .intro p {
     font-size: 1.8rem;
     line-height: 2.6rem;
@@ -170,6 +176,6 @@ nav a:active{
     transform:scale(1.05);
 }
 
-.pokemon {
+/*.pokemon {
     float: right;
 }
