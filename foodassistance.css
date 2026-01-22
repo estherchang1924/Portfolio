@@ -26,6 +26,8 @@ body {
 main {
     margin-top: 10rem;
     line-height: 1.6;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 header{
