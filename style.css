@@ -201,9 +201,3 @@ span{
         margin-top: 4rem;
     }
 }
-
-@media (min-width: 1800px) {
-    .logo {
-        font-size: 274px x 37.5px;
-    }
-}
