@@ -223,6 +223,16 @@ h1{
         height: 500px;
         margin-bottom: 1em;
     }
+
+    .btn {
+        margin-bottom: 2rem;
+        margin-right: 5rem;
+    }
+
+    .btnsaint {
+        margin-bottom: 2rem;
+        margin-right: 7rem;
+    }
 /*
     nav a {
         font-size: 125%;
