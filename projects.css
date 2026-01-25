@@ -163,6 +163,10 @@ h1{
     border-radius: 1em;
 }
 
+#cse {
+    height: 300px;
+}
+
 .btn{
     position: absolute;
     background-color: white;
