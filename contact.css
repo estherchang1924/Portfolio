@@ -299,4 +299,32 @@ footer {
     .contact-form-container h2 {
         font-size: 2.4rem;
     }
+    header {
+        padding: 1rem 5%;
+    }
+
+    .logo {
+        font-size: 2.2rem;
+    }
+
+    body{
+        margin-top: 15rem;
+        margin-bottom: 20rem;
+    }
+
+    main{
+        margin-top: 20rem;
+    }
+    
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    nav a {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+    }
 }
