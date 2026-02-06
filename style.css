@@ -28,7 +28,7 @@ header{
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    background-color: transparent;
+    background-color: white;
     filter: drop-shadow(10px);
     display: flex;
     justify-content: space-between;
@@ -98,14 +98,15 @@ nav a:active{
 
 section{
     min-height: 100vh;
-    padding: 5rem 9% 5rem;
+    /*padding: 5rem 9% 5rem; */
+    padding: 5rem;
 }
 
 .home{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 8rem; 
     background-color: white;
 }
 
@@ -175,6 +176,174 @@ span{
         content: "UI Designer";
     }
 }
+
+video {
+    width: 5%;
+    margin: auto;
+    display: block;
+    margin-top: -12rem;
+}
+
+.projects h1 {
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.project-box{
+    padding-top: 10rem;
+    /*border: 1px solid #333;  */
+    padding: 15px;
+    margin: 10px;
+    /*border-radius: 8px; */
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+} 
+
+.mockup-pic{
+    border: 1px solid #333; 
+    border-radius: 8px;
+    position: relative;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 2rem;
+    margin-right: 10px; 
+}
+
+.mockup-pic p{
+    margin-top: 0.5em;
+}
+
+/*img{
+    /*width: 90%;
+    height: 50%; 
+    width: 90%;
+    padding-top: 1em;
+    max-width: 100%;
+}*/ 
+
+.mockup-pic img {
+    width: auto;           /* don’t stretch to full width */
+    height: 350px;         /* adjust this number to match Food Assistance image */
+    object-fit: cover;     /* crop slightly if necessary but keep proportions */
+    display: block;
+    margin: 0 auto;        
+    /*border: none; */
+    margin-top: 1em;
+    border-radius: 1em;
+}
+
+#cse {
+    height: 300px;
+}
+
+.mockup-pic:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(244, 244, 244);
+}
+
+
+.btn{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-color: black; 
+    bottom: 1em; 
+    right: 50px;
+    border-radius: 3px;
+    padding: 0.5em;
+    border-style: solid; 
+    cursor: pointer;
+    font-size: medium;
+}
+
+.btn-soon{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-color: black; 
+    bottom: 1em; 
+    right: 70px;
+    border-radius: 3px;
+    padding: 0.5em;
+    border-style: solid; 
+    /*pointer-events: none; */
+}
+
+.btn-soon:hover{
+    background-color: rgb(216, 216, 216);
+    transform: scale(1.1);
+}
+
+.btnsaint{
+    position: absolute;
+    background-color: white;
+    color: black;
+    border-color: black; 
+    bottom: 1em; 
+    right: 75px;
+    border-radius: 3px;
+    padding: 0.5em;
+    border-style: solid; 
+    cursor: pointer;
+    font-size: medium;
+} 
+
+.btn:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.btnsaint:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+@media (min-width: 1800px) {
+
+    /*html {
+        font-size: 120%;
+    }
+*/
+    .mockup-pic img {
+        height: 500px;
+        margin-bottom: 1em;
+    }
+
+    .mockup-pic {
+        padding-right: -10px;
+        padding-left: -10px;
+    }
+
+    .btn {
+        margin-bottom: 2rem;
+        margin-right: 5rem;
+    }
+
+    .btnsaint {
+        margin-bottom: 2rem;
+        margin-right: 7rem;
+    }
+/*
+    nav a {
+        font-size: 125%;
+    }
+
+    .mockup-pic {
+        margin-right: 2em;
+    }
+
+    .mockup-pic p {
+        font-size: 125%;
+    }
+*/
+} 
+
 
 @media (max-width: 1000px){
     .home{
