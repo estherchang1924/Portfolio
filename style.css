@@ -370,3 +370,13 @@ video {
         margin-top: 4rem;
     }
 }
+
+@media (min-width: 1000px) {
+    .home{
+        gap: 4rem;
+    }
+
+    video {
+        margin-top: -18rem;
+    }
+}
