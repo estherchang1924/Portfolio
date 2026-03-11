@@ -381,7 +381,7 @@ video {
     }
 
     video {
-        margin-top: -18rem;
+        margin-top: -15rem;
     }
 }
 
@@ -401,6 +401,7 @@ video {
     .logo {
         font-size: 2.2rem;
     }
+
     
     .home {
         min-height: calc(100vh - 6rem);
